@@ -1,3 +1,3 @@
 # Gustavo Bernardo Brito
 
-Applied Mathematics @ UFG | Scientific Machine Learning, Mathematical Modeling, Climate Science & Uncertainty.
+Scientific Machine Learning, Environmental Data Science & Applied Mathematics.
