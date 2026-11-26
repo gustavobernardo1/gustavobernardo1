@@ -1,0 +1,44 @@
+name: Update Conjectura profile
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-conjectura.yml'
+      - 'scripts/update_conjectura.py'
+      - 'tests/test_update_conjectura.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: conjectura-profile-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test synchronization
+        run: python3 -m unittest discover -s tests -p test_update_conjectura.py
+      - name: Refresh profile
+        run: python3 scripts/update_conjectura.py
+      - name: Commit only changed profile content
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- README.md README.pt-BR.md
+          if git diff --cached --quiet; then
+            echo "Profile already up to date."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update Conjectura research summary'
+          git push origin HEAD:main
