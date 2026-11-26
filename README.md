@@ -25,14 +25,18 @@ Mathematical modeling, scientific machine learning, optimization and uncertainty
 - [matematications](https://github.com/gustavobernardo1/matematications) — mathematics, computation and their children.
 - [chuchuva](https://github.com/gustavobernardo1/chuchuva) — interdisciplinary exploration of rain.
 
-## Testing conjectures with AI
+## Mathematical Discoveries
 
-Part of [conjectura](https://github.com/gustavobernardo1/conjectura): computational exploration, proof search and formal verification of mathematical conjectures.
+AI-driven mathematical discovery through [conjectura](https://github.com/gustavobernardo1/conjectura).
 
-| Research status | Conjecture |
-| --- | --- |
-| Currently investigating | [Collins–Shor (CJ-0001)](https://github.com/gustavobernardo1/conjectura/blob/research/research/active/CJ-0001-collins-shor-peak/STATE.md) — peak location of normalized distance characteristic polynomial coefficients of trees |
-| Last proved | None yet |
-| Last disproved | None yet |
+| Lemmas | Theorems | Counterexamples | Other results |
+| :---: | :---: | :---: | :---: |
+| 0 | 0 | 0 | 0 |
 
-[Research catalogue](https://github.com/gustavobernardo1/conjectura/blob/research/research/INDEX.md) · [Reviewed results](https://github.com/gustavobernardo1/conjectura/tree/main/results) · Updated: 2026-11-26
+**Conjectures resolved:** 0  
+**Currently investigating:** [Collins–Shor conjecture](https://github.com/gustavobernardo1/conjectura/blob/research/research/active/CJ-0001-collins-shor-peak/STATE.md)  
+**Latest discovery:** —
+
+[Research catalogue](https://github.com/gustavobernardo1/conjectura/blob/research/research/INDEX.md) · [Reviewed results](https://github.com/gustavobernardo1/conjectura/tree/main/results)
+
+*Counts reflect established original contributions, not preliminary findings.*
