@@ -29,9 +29,13 @@ Modelagem matemática, aprendizado de máquina científico, otimização e quant
 
 Descoberta matemática orientada por IA por meio do [conjectura](https://github.com/gustavobernardo1/conjectura).
 
+<!-- conjectura:begin -->
+
 | Lemas | Teoremas | Contraexemplos | Outros resultados |
 | :---: | :---: | :---: | :---: |
 | 0 | 0 | 0 | 0 |
+
+<!-- conjectura:end -->
 
 **Conjecturas resolvidas:** 0  
 **Em investigação:** [Conjectura Collins–Shor](https://github.com/gustavobernardo1/conjectura/blob/research/research/active/CJ-0001-collins-shor-peak/STATE.md)  
