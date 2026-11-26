@@ -19,7 +19,11 @@ Modelagem matemática, aprendizado de máquina científico, otimização e quant
 - [conjectura](https://github.com/gustavobernardo1/conjectura) — descoberta matemática com IA e verificação formal em Lean 4; pesquisa em andamento.
 - [Mapa dos Ipês](https://github.com/gustavobernardo1/mapa-dos-ipes) — ciência cidadã e engenharia geoespacial.
 
+## Conjectura em estudo
+
+**[Conjectura de Collins–Shor (CJ-0001)](https://github.com/gustavobernardo1/conjectura/blob/research/research/active/CJ-0001-collins-shor-peak/STATE.md)** — localização do pico dos coeficientes normalizados do polinômio característico de distância de uma árvore. Investigação em andamento.
+
 ## Estudos
 
-- [matematications](https://github.com/gustavobernardo1/matematications) — matemática, computação e aprendizado de máquina científico.
+- [matematications](https://github.com/gustavobernardo1/matematications) — matemática, computação e seus filhos.
 - [chuchuva](https://github.com/gustavobernardo1/chuchuva) — exploração interdisciplinar da chuva.
