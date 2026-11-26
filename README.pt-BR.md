@@ -10,9 +10,9 @@ Modelagem matemática, aprendizado de máquina científico, otimização e quant
 
 ## Pesquisas em andamento
 
-- Modelagem agrícola — lacunas de produtividade e eficiência agrícola da soja. **Prof. Rafael Battisti · Escola de Agronomia (EA/UFG)**
-- Ciência de dados ambientais — variabilidade da precipitação no Cerrado brasileiro. **Prof. Derblai Casaroli · Escola de Agronomia (EA/UFG)**
-- Análise de crédito sob incerteza — aplicação de lógica fuzzy na análise de crédito. **Profa. Marina Tuyako Mizukoshi · Instituto de Matemática e Estatística (IME/UFG)**
+- Modelagem agrícola — yield gap e eficiência agrícola da soja (EA/UFG)
+- Ciência de dados ambientais — variabilidade da precipitação no Cerrado brasileiro (EA/UFG)
+- Análise de crédito sob incerteza — lógica fuzzy aplicada à análise de crédito (IME/UFG)
 
 ## Projetos
 
