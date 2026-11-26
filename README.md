@@ -29,9 +29,13 @@ Mathematical modeling, scientific machine learning, optimization and uncertainty
 
 AI-driven mathematical discovery through [conjectura](https://github.com/gustavobernardo1/conjectura).
 
+<!-- conjectura:begin -->
+
 | Lemmas | Theorems | Counterexamples | Other results |
 | :---: | :---: | :---: | :---: |
 | 0 | 0 | 0 | 0 |
+
+<!-- conjectura:end -->
 
 **Conjectures resolved:** 0  
 **Currently investigating:** [Collins–Shor conjecture](https://github.com/gustavobernardo1/conjectura/blob/research/research/active/CJ-0001-collins-shor-peak/STATE.md)  
