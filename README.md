@@ -10,9 +10,9 @@ Mathematical modeling, scientific machine learning, optimization and uncertainty
 
 ## Current Research
 
-- Agricultural modeling — soybean yield gaps and agricultural efficiency. **Prof. Rafael Battisti · School of Agronomy (EA/UFG)**
-- Environmental data science — rainfall variability in the Brazilian Cerrado. **Prof. Derblai Casaroli · School of Agronomy (EA/UFG)**
-- Credit analysis under uncertainty — application of fuzzy logic to credit analysis. **Prof. Marina Tuyako Mizukoshi · Institute of Mathematics and Statistics (IME/UFG)**
+- Agricultural modeling — soybean yield gaps and agricultural efficiency (EA/UFG)
+- Environmental data science — rainfall variability in the Brazilian Cerrado (EA/UFG)
+- Credit analysis under uncertainty — fuzzy logic in credit analysis (IME/UFG)
 
 ## Projects
 
