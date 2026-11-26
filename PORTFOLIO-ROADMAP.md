@@ -6,16 +6,16 @@ Target: graduation in December 2027. This is a planning document, not a claim of
 
 | Repository | Role | Status |
 |---|---|---|
-| graphcube-lab | Selected computational mathematics project | Existing; public |
+| graphcube-lab | Historical project; not featured | Existing; public |
 | mapa-dos-ipes | Applied geospatial engineering | Existing; public |
 | decisionlab | Decision support software | Existing; private; public demo documented |
 | yield-gap | Academic research | Existing; private |
 | PESQUISA-CERRADO | Academic research | Existing; private |
 | conjectura | AI-assisted mathematical discovery | Independently initiated by author; not managed here |
-| helios | Energy modeling and optimization flagship | Proposed |
-| computational-mathematics | Numerical methods, optimization and uncertainty studies | Proposed |
-| scientific-ml | Scientific ML studies and paper reproductions | Proposed |
-| gustavobernardo1.github.io | Quarto scientific portfolio | Proposed |
+| helios | Energy modeling and optimization flagship | Initialized; private |
+| computational-mathematics | Numerical methods, optimization and uncertainty studies | Initialized; public |
+| scientific-ml | Scientific ML studies and paper reproductions | Initialized; public |
+| gustavobernardo1.github.io | Quarto scientific portfolio | Source initialized; deployment pending |
 
 Do not publish academic data, unpublished findings or restricted code without authorization. Do not create empty repositories merely to fill profile pins.
 
