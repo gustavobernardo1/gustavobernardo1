@@ -39,6 +39,7 @@
 
 ## Projects & studies
 
+- [**Pluvia**](https://github.com/gustavobernardo1/pluvia) — an open-ended exploration of rain across nature, science, humanity and culture.
 - **Helios** — physics-guided solar forecasting and stochastic energy optimization. In development.
 - **Conjectura** — AI-assisted mathematical discovery and formal verification with Lean 4. Independent research initiative.
 - [**Computational Mathematics**](https://github.com/gustavobernardo1/computational-mathematics) — numerical methods, dynamical systems and optimization studies.
