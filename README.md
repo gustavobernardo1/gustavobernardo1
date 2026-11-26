@@ -22,7 +22,7 @@ Mathematical modeling, scientific machine learning, optimization and uncertainty
 
 ## Studies
 
-- [matematications](https://github.com/gustavobernardo1/matematications) — mathematics, computation and their offspring.
+- [matematications](https://github.com/gustavobernardo1/matematications) — mathematics, computation and their children.
 - [chuchuva](https://github.com/gustavobernardo1/chuchuva) — interdisciplinary exploration of rain.
 
 ## Testing conjectures with AI
