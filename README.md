@@ -1,3 +1,5 @@
+<p align="center"><strong>English</strong> | <a href="README.pt-BR.md">Português (Brasil)</a></p>
+
 <h1 align="center">Gustavo Bernardo Brito</h1>
 
 <p align="center">
