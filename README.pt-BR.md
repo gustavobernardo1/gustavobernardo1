@@ -15,12 +15,12 @@ Modelagem matemática, aprendizado de máquina científico, otimização e quant
 
 ## Projetos
 
-- [Metron](https://github.com/gustavobernardo1/metron) — avaliação comparativa de modelos e benchmarking reprodutível.
+- [metron](https://github.com/gustavobernardo1/metron) — avaliação comparativa de modelos e benchmarking reprodutível.
 - [chuchuva](https://github.com/gustavobernardo1/pluvia) — exploração interdisciplinar da chuva.
-- **Helios** — previsão solar e otimização estocástica de energia (em desenvolvimento).
-- **Conjectura** — descoberta matemática assistida por IA e verificação formal (em desenvolvimento).
+- **helios** — previsão solar e otimização estocástica de energia (em desenvolvimento).
+- [conjectura](https://github.com/gustavobernardo1/conjectura) — descoberta matemática com IA e verificação formal em Lean 4; pesquisa em andamento.
 - [Mapa dos Ipês](https://github.com/gustavobernardo1/mapa-dos-ipes) — ciência cidadã e engenharia geoespacial.
 
 ## Estudos
 
-[matematications](https://github.com/gustavobernardo1/computational-mathematics) · [Scientific ML](https://github.com/gustavobernardo1/scientific-ml)
+[matematications](https://github.com/gustavobernardo1/computational-mathematics) — matemática, computação e aprendizado de máquina científico.
