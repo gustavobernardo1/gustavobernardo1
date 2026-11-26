@@ -8,11 +8,11 @@ Mathematical modeling, scientific machine learning, optimization and uncertainty
 
 [Website](https://gustavobernardo1.github.io) · [Curriculum Lattes](http://lattes.cnpq.br/9675299775092117)
 
-## Research
+## Current Research
 
-- Agricultural modeling — soybean yield gaps and agricultural efficiency.
-- Environmental data science — rainfall variability in the Brazilian Cerrado.
-- Credit analysis under uncertainty — application of fuzzy logic to credit analysis.
+- Agricultural modeling — soybean yield gaps and agricultural efficiency. **Prof. Rafael Battisti · School of Agronomy (EA/UFG)**
+- Environmental data science — rainfall variability in the Brazilian Cerrado. **Prof. Derblai Casaroli · School of Agronomy (EA/UFG)**
+- Credit analysis under uncertainty — application of fuzzy logic to credit analysis. **Prof. Marina Tuyako Mizukoshi · Institute of Mathematics and Statistics (IME/UFG)**
 
 ## Projects
 
