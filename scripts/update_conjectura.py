@@ -88,7 +88,23 @@ def validate(data):
     require((latest is None) == (discoveries["total"] == 0), "Inconsistent latest discovery")
     link_url(public["research_catalogue_url"])
     link_url(public["reviewed_results_url"])
-    return public
+    # Research metrics are supplementary, not part of the established-results contract.
+    progress = None
+    if "counts" in data:
+        counts = data["counts"]
+        require(isinstance(counts, dict), "Invalid research counts")
+        contributions = counts.get("contributions")
+        require(isinstance(contributions, dict), "Missing contribution counts")
+        status = contributions.get("by_status")
+        require(isinstance(status, dict), "Missing contribution status counts")
+        mathematical = status.get("mathematical")
+        require(isinstance(mathematical, dict), "Missing mathematical status counts")
+        registered = contributions.get("registered")
+        proofs = mathematical.get("candidate-proof", 0)
+        require(type(registered) is int and type(proofs) is int
+                and 0 <= proofs <= registered, "Invalid research progress counts")
+        progress = (registered, proofs)
+    return dict(public, _research_progress=progress)
 
 
 def markdown(value):
@@ -122,6 +138,13 @@ def render(public, lang):
     results = "Resultados revisados" if pt else "Reviewed results"
     links = " · ".join((linked(catalogue, link_url(public["research_catalogue_url"])),
                         linked(results, link_url(public["reviewed_results_url"]))))
+    progress_lines = ()
+    if public.get("_research_progress") is not None:
+        registered, proofs = public["_research_progress"]
+        label = "Pesquisa em andamento" if pt else "Research in progress"
+        records = "contribuições registradas" if pt else "registered contributions"
+        candidates = "demonstrações candidatas" if pt else "candidate proofs"
+        progress_lines = ("", f"**{label}:** {registered} {records} · {proofs} {candidates}")
     return "\n".join((
         "| " + " | ".join(headers) + " |",
         "| :---: | :---: | :---: | :---: |",
@@ -130,6 +153,7 @@ def render(public, lang):
         "**" + labels[0] + ":** " + str(public["resolved_conjectures"]["total"]) + "  ",
         "**" + labels[1] + ":** " + current + "  ",
         "**" + labels[2] + ":** " + last,
+        *progress_lines,
         "", links,
     ))
 

@@ -42,6 +42,33 @@ class SyncTests(unittest.TestCase):
             self.assertTrue(path.read_text().endswith("\nafter\n"))
         self.assertEqual(refresh(data, self.root), 0)
 
+    def test_research_progress_separate_from_established_counts(self):
+        data = fixture()
+        data["counts"] = {"contributions": {"registered": 15, "by_status": {
+            "mathematical": {"candidate-proof": 9}}}}
+        self.assertEqual(refresh(data, self.root), 2)
+        en, pt = (p.read_text(encoding="utf-8") for p in self.paths)
+        self.assertIn("| 0 | 0 | 0 | 0 |", en)
+        self.assertIn("**Conjectures resolved:** 0", en)
+        self.assertIn("15 registered contributions · 9 candidate proofs", en)
+        self.assertIn("15 contribuições registradas · 9 demonstrações candidatas", pt)
+        self.assertEqual(refresh(data, self.root), 0)
+        data["counts"]["contributions"]["registered"] = 16
+        self.assertEqual(refresh(data, self.root), 2)
+
+    def test_invalid_research_counts_preserve_readmes(self):
+        for registered, proofs in ((5, 6), (-1, 0), (True, 0), (5, -1)):
+            data = fixture()
+            data["counts"] = {"contributions": {"registered": registered,
+                "by_status": {"mathematical": {"candidate-proof": proofs}}}}
+            with self.assertRaises(ValueError):
+                refresh(data, self.root)
+            self.assertTrue(all(p.read_text() == self.original for p in self.paths))
+
+    def test_absent_research_counts_preserve_legacy_contract(self):
+        out = render(validate(fixture()), "en")
+        self.assertNotIn("Research in progress", out)
+
     def test_invalid_contract_preserves_readmes(self):
         for field, value in (("schema_version", 2), ("primary_investigation", {}),
                              ("established_original_discoveries", {"lemmas": 3})):

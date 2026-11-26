@@ -39,8 +39,10 @@ Descoberta matemática orientada por IA por meio do [conjectura](https://github.
 **Em investigação:** [Conjectura Collins–Shor](https://github.com/gustavobernardo1/conjectura/blob/research/research/candidates/CJ-0001-collins-shor-peak.md)  
 **Última descoberta:** —
 
+**Pesquisa em andamento:** 15 contribuições registradas · 9 demonstrações candidatas
+
 [Catálogo de pesquisas](https://github.com/gustavobernardo1/conjectura/blob/research/research/INDEX.md) · [Resultados revisados](https://github.com/gustavobernardo1/conjectura/tree/research/results)
 
 <!-- conjectura:end -->
 
-*As contagens refletem contribuições originais estabelecidas, não resultados preliminares.*
+*A tabela e a contagem de conjecturas resolvidas refletem apenas resultados originais estabelecidos. Os indicadores de pesquisa incluem contribuições preliminares e redescobertas.*
