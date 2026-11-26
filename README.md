@@ -16,6 +16,7 @@ Research data and unpublished results are shared only when authorized.
 | Project | Focus | Status |
 | --- | --- | --- |
 | Helios | Physics-guided solar forecasting, uncertainty quantification and stochastic energy optimization | In development |
+| [Metron](https://github.com/gustavobernardo1/metron) | Reproducible benchmarking and comparative evaluation of mathematical and computational models | Protocol design |
 | Conjectura | AI-assisted mathematical discovery and formal verification in Lean 4 | Independent research initiative |
 | [Computational Mathematics](https://github.com/gustavobernardo1/computational-mathematics) | Numerical methods, dynamical systems and optimization | Ongoing studies |
 | [Scientific ML](https://github.com/gustavobernardo1/scientific-ml) | Inverse problems, physics-guided learning and reproducible experiments | Ongoing studies |
