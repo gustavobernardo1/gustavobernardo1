@@ -12,6 +12,7 @@ Mathematical modeling, scientific machine learning, optimization and uncertainty
 
 - Agricultural modeling — soybean yield gaps and agricultural efficiency.
 - Environmental data science — rainfall variability in the Brazilian Cerrado.
+- Credit analysis under uncertainty — application of fuzzy logic to credit analysis.
 
 ## Projects
 
@@ -19,11 +20,19 @@ Mathematical modeling, scientific machine learning, optimization and uncertainty
 - [conjectura](https://github.com/gustavobernardo1/conjectura) — AI-driven mathematical discovery and formal verification in Lean 4; research in progress.
 - [Mapa dos Ipês](https://github.com/gustavobernardo1/mapa-dos-ipes) — citizen science and geospatial engineering.
 
-## Current conjecture
-
-**[Collins–Shor conjecture (CJ-0001)](https://github.com/gustavobernardo1/conjectura/blob/research/research/active/CJ-0001-collins-shor-peak/STATE.md)** — location of the peak of the normalized coefficients of the distance characteristic polynomial of a tree. Investigation in progress.
-
 ## Studies
 
 - [matematications](https://github.com/gustavobernardo1/matematications) — mathematics, computation and their offspring.
 - [chuchuva](https://github.com/gustavobernardo1/chuchuva) — interdisciplinary exploration of rain.
+
+## Testing conjectures with AI
+
+Part of [conjectura](https://github.com/gustavobernardo1/conjectura): computational exploration, proof search and formal verification of mathematical conjectures.
+
+| Research status | Conjecture |
+| --- | --- |
+| Currently investigating | [Collins–Shor (CJ-0001)](https://github.com/gustavobernardo1/conjectura/blob/research/research/active/CJ-0001-collins-shor-peak/STATE.md) — peak location of normalized distance characteristic polynomial coefficients of trees |
+| Last proved | None yet |
+| Last disproved | None yet |
+
+[Research catalogue](https://github.com/gustavobernardo1/conjectura/blob/research/research/INDEX.md) · [Reviewed results](https://github.com/gustavobernardo1/conjectura/tree/main/results) · Updated: 2026-11-26
