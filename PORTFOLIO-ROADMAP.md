@@ -11,11 +11,12 @@ Target: graduation in December 2027. This is a planning document, not a claim of
 | decisionlab | Decision support software | Existing; private; public demo documented |
 | yield-gap | Academic research | Existing; private |
 | PESQUISA-CERRADO | Academic research | Existing; private |
-| conjectura | AI-assisted mathematical discovery | Independently initiated by author; not managed here |
+| conjectura | AI-assisted mathematical discovery | Public; research in progress; managed independently by author |
+| chuchuva (currently pluvia URL) | Open interdisciplinary exploration of rain; pluvia reserved as future internal name | Public |
 | metron | Multidisciplinary benchmarking and comparative model evaluation | Initialized; public |
 | helios | Energy modeling and optimization flagship | Initialized; private |
-| computational-mathematics | Numerical methods, optimization and uncertainty studies | Initialized; public |
-| scientific-ml | Scientific ML studies and paper reproductions | Initialized; public |
+| matematications (currently computational-mathematics URL) | Unified mathematics, computation and scientific ML studies | Public; integrated |
+| scientific-ml | Historical source; integrated into matematications | Public; migration notice |
 | gustavobernardo1.github.io | Quarto scientific portfolio | Source initialized; deployment confirmed by author |
 
 Do not publish academic data, unpublished findings or restricted code without authorization. Do not create empty repositories merely to fill profile pins.
@@ -23,7 +24,7 @@ Do not publish academic data, unpublished findings or restricted code without au
 ## Milestones by December 2027
 
 - [ ] Three substantial selected public projects
-- [ ] Two organized study repositories
+- [ ] One organized, unified study repository
 - [ ] Fifteen substantive computational studies
 - [ ] Three paper reproductions (may count toward the studies)
 - [ ] Eight technical notes in English (may document the studies)
