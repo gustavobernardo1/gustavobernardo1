@@ -12,10 +12,11 @@ Target: graduation in December 2027. This is a planning document, not a claim of
 | yield-gap | Academic research | Existing; private |
 | PESQUISA-CERRADO | Academic research | Existing; private |
 | conjectura | AI-assisted mathematical discovery | Independently initiated by author; not managed here |
+| metron | Multidisciplinary benchmarking and comparative model evaluation | Initialized; public |
 | helios | Energy modeling and optimization flagship | Initialized; private |
 | computational-mathematics | Numerical methods, optimization and uncertainty studies | Initialized; public |
 | scientific-ml | Scientific ML studies and paper reproductions | Initialized; public |
-| gustavobernardo1.github.io | Quarto scientific portfolio | Source initialized; deployment pending |
+| gustavobernardo1.github.io | Quarto scientific portfolio | Source initialized; deployment confirmed by author |
 
 Do not publish academic data, unpublished findings or restricted code without authorization. Do not create empty repositories merely to fill profile pins.
 
