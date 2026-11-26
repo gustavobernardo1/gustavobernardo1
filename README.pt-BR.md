@@ -8,11 +8,11 @@ Modelagem matemática, aprendizado de máquina científico, otimização e quant
 
 [Site](https://gustavobernardo1.github.io) · [Currículo Lattes](http://lattes.cnpq.br/9675299775092117)
 
-## Pesquisa
+## Pesquisas em andamento
 
-- Modelagem agrícola — lacunas de produtividade e eficiência agrícola da soja.
-- Ciência de dados ambientais — variabilidade da precipitação no Cerrado brasileiro.
-- Análise de crédito sob incerteza — aplicação de lógica fuzzy na análise de crédito.
+- Modelagem agrícola — lacunas de produtividade e eficiência agrícola da soja. **Prof. Rafael Battisti · Escola de Agronomia (EA/UFG)**
+- Ciência de dados ambientais — variabilidade da precipitação no Cerrado brasileiro. **Prof. Derblai Casaroli · Escola de Agronomia (EA/UFG)**
+- Análise de crédito sob incerteza — aplicação de lógica fuzzy na análise de crédito. **Profa. Marina Tuyako Mizukoshi · Instituto de Matemática e Estatística (IME/UFG)**
 
 ## Projetos
 
