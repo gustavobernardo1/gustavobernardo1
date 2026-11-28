@@ -39,7 +39,7 @@ AI-driven mathematical discovery through [conjectura](https://github.com/gustavo
 **Currently investigating:** [Collins–Shor conjecture](https://github.com/gustavobernardo1/conjectura/blob/research/research/candidates/CJ-0001-collins-shor-peak.md)  
 **Latest discovery:** —
 
-**Research in progress:** 24 registered contributions · 17 candidate proofs
+**Research in progress:** 31 registered contributions · 20 candidate proofs
 
 [Research catalogue](https://github.com/gustavobernardo1/conjectura/blob/research/research/INDEX.md) · [Reviewed results](https://github.com/gustavobernardo1/conjectura/tree/research/results)
 
